@@ -1,3 +1,6 @@
+# Projet 2 ASLO45
+Redesign of the website of the Orléans Laser Sabre Academy.
+
 ### Langages
 * HTML 5
 * CSS 3
