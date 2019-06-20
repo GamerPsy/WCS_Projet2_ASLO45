@@ -30,8 +30,6 @@ mysql aslo < aslo_picture.sql
 mysql aslo < aslo_address.sql
 ```
 
-
-
 * Run commands
 ```
 composer install
@@ -40,6 +38,25 @@ php -S localhost:8000 -t public
 ```
 and go to `localhost:8000` with your favorite browser.
 `
+## URLs availables
+* Home page at [localhost:8000/](localhost:8000/)
+* for simple user
+```
+View galery at localhost:8000/galerie
+View events at localhost:8000/events
+View inscription at localhost:8000/inscription
+```
+* for administrator
+```
+Edit adresses at http://localhost:8000/admin/addresses
+Edit galery at http://localhost:8000/admin/galerie
+Galery add picture at http://localhost:8000/admin/galerie/add
+Galery deletion picture at /admin/galerie/delete/:id
+Events list at http://localhost:8000/admin/events
+Events add an event at http://localhost:8000/admin/event/add
+Events update an event at http://localhost:8000/admin/events/viewed/:id
+Events remove an event at http://localhost:8000/admin/event/remove
+```
 
 ### Langages
 * HTML 5
