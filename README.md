@@ -48,8 +48,8 @@ View inscription at localhost:8000/inscription
 ```
 * for administrator
 ```
-Edit adresses at http://localhost:8000/admin/addresses
-Edit galery at http://localhost:8000/admin/galerie
+Adresses edit at http://localhost:8000/admin/addresses
+Galery list at http://localhost:8000/admin/galerie
 Galery add picture at http://localhost:8000/admin/galerie/add
 Galery deletion picture at /admin/galerie/delete/:id
 Events list at http://localhost:8000/admin/events
