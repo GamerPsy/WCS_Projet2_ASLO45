@@ -16,6 +16,11 @@ DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/db_name
 MAILER_FROM_ADDRESS=administrator_email
 MAILER_URL=null://localhost
 ```
+* Run commands
+```
+composer install
+```
+* Run server `php bin/console server:run`
 
 ### Langages
 * HTML 5
