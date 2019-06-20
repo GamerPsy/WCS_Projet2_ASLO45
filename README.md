@@ -8,19 +8,25 @@ You need [Composer](https://getcomposer.org/download/) in your computer.
 ### Installing
 
 * Clone the project `git clone https://github.com/GamerPsy/WCS_Projet2_ASLO45.git`
-* Open the folder, configure the constants in *.env* file 
+* Create *config/db.php* from *config/db.php.dist* file and add your DB parameters. Don't delete the *.dist* file, it must be kept.
+```php
+define('APP_DB_HOST', 'your_db_host');
+define('APP_DB_NAME', 'your_db_name');
+define('APP_DB_USER', 'your_db_user_wich_is_not_root');
+define('APP_DB_PWD', 'your_db_password');
 ```
-APP_ENV=dev
-APP_SECRET=your-secret-message
-DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/db_name
-MAILER_FROM_ADDRESS=administrator_email
-MAILER_URL=null://localhost
-```
+* Import `*.sql` in your SQL server,
+
+
+
 * Run commands
 ```
 composer install
+php -S localhost:8000 -t public
+
 ```
-* Run server `php bin/console server:run`
+and go to `localhost:8000` with your favorite browser.
+`
 
 ### Langages
 * HTML 5
