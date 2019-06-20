@@ -17,6 +17,7 @@ define('APP_DB_PWD', 'your_db_password');
 ```
 * Create your database on your SQL server :
 ```
+CREATE DATABASE aslo;
 ```
 
 * Import sql files into your SQL server :
