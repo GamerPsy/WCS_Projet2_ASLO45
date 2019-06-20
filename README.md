@@ -11,11 +11,23 @@ You need [Composer](https://getcomposer.org/download/) in your computer.
 * Create *config/db.php* from *config/db.php.dist* file and add your DB parameters. Don't delete the *.dist* file, it must be kept.
 ```php
 define('APP_DB_HOST', 'your_db_host');
-define('APP_DB_NAME', 'your_db_name');
+define('APP_DB_NAME', 'aslo');
 define('APP_DB_USER', 'your_db_user_wich_is_not_root');
 define('APP_DB_PWD', 'your_db_password');
 ```
-* Import `*.sql` in your SQL server,
+* Create your database on your SQL server :
+```
+```
+
+* Import sql files into your SQL server :
+```
+mysql aslo < aslo_address.sql
+mysql aslo < aslo_event.sql
+mysql aslo < aslo_image.sql
+mysql aslo < aslo_item.sql
+mysql aslo < aslo_picture.sql
+mysql aslo < aslo_address.sql
+```
 
 
 
