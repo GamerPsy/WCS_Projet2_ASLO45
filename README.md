@@ -1,6 +1,22 @@
 # Projet 2 ASLO45
 Redesign of the website of the Orléans Laser Sabre Academy.
 
+### Prerequisites
+
+You need [Composer](https://getcomposer.org/download/) in your computer.
+
+### Installing
+
+* Clone the project `git clone https://github.com/GamerPsy/WCS_Projet2_ASLO45.git`
+* Open the folder, configure the constants in *.env* file 
+```
+APP_ENV=dev
+APP_SECRET=your-secret-message
+DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/db_name
+MAILER_FROM_ADDRESS=administrator_email
+MAILER_URL=null://localhost
+```
+
 ### Langages
 * HTML 5
 * CSS 3
