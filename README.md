@@ -1,6 +1,8 @@
 # Projet 2 ASLO45
 Redesign of the website of the Orléans Laser Sabre Academy.
 
+![Association Sabre Laser Orléanaise](aslo.gif)
+
 ### Prerequisites
 
 You need [Composer](https://getcomposer.org/download/) in your computer.
