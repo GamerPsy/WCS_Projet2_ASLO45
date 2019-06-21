@@ -27,7 +27,7 @@ mysql aslo < aslo_event.sql
 mysql aslo < aslo_image.sql
 mysql aslo < aslo_item.sql
 mysql aslo < aslo_picture.sql
-mysql aslo < aslo_address.sql
+mysql aslo < aslo_member.sql
 ```
 
 * Run commands
